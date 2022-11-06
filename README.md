@@ -127,10 +127,10 @@ But why?
 
 The history should be available in a small window next to the main window.
 It should be linked to the main window.
-Certainly every time I type a new line it shouold be added to history.
+Certainly every time I type a new line it should be added to history.
 And as I type the history window can try to guess what I want to see.
 
-But I should be able to take over the history window, seperate from the main window.
+But I should be able to take over the history window, separate from the main window.
 Maybe I want to search for something specific.
 By default the command history might look for completions for what I've been typing.
 But I can go into the history window and change the query.
@@ -139,7 +139,7 @@ In fact, the history window might look a lot like the file viewer window.
 I should be able to enter a series of regular expressions to filter out the list of lines.
 And I should be able to use regular expressions to highlight parts of the text in color.
 
-Most important, I should be able to easily copy and paste part of one line of history and part of aonther line of history onto the command I'm currently typing.
+Most important, I should be able to easily copy and paste part of one line of history and part of another line of history onto the command I'm currently typing.
 
 
 ## Viewer
@@ -148,7 +148,7 @@ Most of that needs to be replaced with a good file viewer.
 Something with a scrollbar.
 
 For the most part I'm looking at text UTF-8.
-But it should be able to handle ANSI escape sequences.
+But it should be able to handle [ANSI escape sequences](https://en.wikipedia.org/wiki/ANSI_escape_code).
 I hate having to choose between the colorful display that many commands give by default and the searching and scrolling options I get from `less`.
 I should be able to do both at once!!!
 
@@ -179,7 +179,7 @@ Queries that I'm writing as I go.
 
 ## Pipes and Notebooks
 
-It should be easy to create compicated serieses of commands.
+It should be easy to create complicated series of commands.
 Consider a typical command
 ```
 cat my file|grep for something | sort --unique |wc
