@@ -95,6 +95,30 @@ And I can right click to bring up a file in a new window, a file viewer window, 
 
 ## File manager
 
+The file manager panel will look a lot like a normal GUI file manager.
+Like in Windows or OSX or similar.
+
+It will have a list of files.
+You can display them as icons or a table, maybe a table-tree for subdirectories.
+You can sort the files by the usual fields.
+You can search for files, both in this immediate list, and in all subdirectories, as a simple option.
+You can select files.
+You can copy the list of selected files to other applications, i.e. they are in some useful, non-proprietary format.
+Etc.
+
+Sometimes I only want to see this panel.
+It should be easy for me to hide the other panels, e.g. the terminal text input.
+It should be easy for me to restore the other panels.
+I should be able to create a terminal from a file manager and vice versa.
+Initially they should be linked.
+But it should also be easy for me to duplicate one of the panels into a new unlinked window.
+
+Normally the file manager and a terminal text input window are linked.
+When I'm typing a file name, the file manager will go to the relevant directory,
+and create a reasonable query, to show me what's possible.
+But I can also take control from the file manager.
+I can choose to move to a different directory or select a different set of files in this directory with the normal GUI gestures.
+
 ## History
 
 Looking up old commands should be easier.
