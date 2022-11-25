@@ -38,7 +38,7 @@ What if I open it in a different building?
 Do I have to `cd` back into the right directory in every open Putty window?
 Of course not, that's not how the web works.
 
-More that that.  
+More than that.
 What if I want to open another window in the same directory as this window?
 Shouldn't I be able to just copy the URL into a new window?
 When I see a link to a different directory, shouldn't I have the option to open it in the current window or a new window?
