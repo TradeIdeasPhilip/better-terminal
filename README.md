@@ -93,6 +93,15 @@ And I can view lots of details about the files, while I'm typing the command.
 I can see natural file manager stuff, like the size and date of each file, by default.
 And I can right click to bring up a file in a new window, a file viewer window, without affecting my current work.
 
+### Less twitchy
+This is most obvious with suggestions.
+Sometimes I see a suggestion while I'm typing.
+But I don't react quickly enough and I type one or two more letters.
+And the suggestion I wanted is gone.
+And I delete the last two letters; sometimes that works.
+Sometimes I have to delete one more letter just so I can retype it so I can perfectly recreate the situation where I first saw the suggestion that I want to accept.
+
+Consider the case of trying to fill in the values for a function in VS code or similar.  Usually intellisense will give you some hints.  Depending on exactly where you are it will tell you about the function you are call or about the argument you are in the process of typing in.  It generally works well when it works.  But then sometimes I break it.  I can never remember the hot keys to bring up either of those pieces of info.  I often have to delete and retype the last , or ( just to get them back.  Surely there's room for both of these all of the time on the right.  And if there isn't, there will be a scrollbar or similar to get them back!
 ## File manager
 
 The file manager panel will look a lot like a normal GUI file manager.
